@@ -1,7 +1,8 @@
 <html>
 
 <!--
-    
+    I'm leaving this in because this is really helpful...
+
     Note to Students:
 
         This is a very short introduction to using Javascript in the browser.
@@ -33,12 +34,11 @@
         - Congrats: you now have a local HTTP server running. Now, every time you change this file and save it, when you reload the browser you will see your changes!
 -->
 
-<head><title>Intro to JS in a Browser</title></head>
+<head><title>Data 608: Module 5</title></head>
 
 <body>
 
-<h1>Intro to JS in a Browser</h1>
-<h2>All of the below is created with Javascript. </h2>
+
 
 <script type="text/javascript">
 
@@ -46,36 +46,7 @@
 
 // writing to a document directly
 
-document.write('<p><b>While you are working in Javascript (or any language), it is really important to be able to debug. Some browsers offer very simple ways to see what is happening on a page.</b></p>');
-document.write('<p>Chrome and Firefox in particular offer good Developer Tools and Javascript console access</p><br>');
-</script>
-
-<script type="text/javascript">
-
-// Find this bug in the console and fix it!
-document.write('<p>This assignment is crazy!</p><br>');
-document.write('<p>These are really helpful for finding bugs!</p><br>');
-</script>
-
-
-<script type="text/javascript">
-
-// Variables and Math:
-
-var num1 = '5';
-var num2 = '5';
-var answer;
-
-answer = +num1 + +num2
-
-document.write(num1 + ' plus ' + num2 + '= ' + answer );
-
-document.write('<p>An example of a random number would be ' + Math.random() + '</p>');
-
-var rightNow = new Date();
-
-document.write('<p>Right now it is ' + rightNow + '<p>');
-
+document.write('<p><b>Problem 1: Create a function to reverse any word that you can type.  This can be typed into an input box or an alert box, and then print the result in a box or on the webpage</b></p>');
 </script>
 
 
@@ -104,7 +75,6 @@ function divis(num,d){
 
 function mtable(tab_num){
 
-    var div = document.getElementById("internal");
     var table = document.createElement("table");
     div.appendChild(table);
     var rowLength = 5;
